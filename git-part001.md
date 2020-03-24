@@ -26,7 +26,7 @@ If you haven't, here's a good youtube video: https://youtube.com/watch?v=nbFwejI
 
 I will also assume that you're using git-bash if you're on Windows.
 
-Suggestion for windows users: To follow along in this tutorial, go to your Documents folder, right-click and left-click on "Git-Bash here" (or something similar).
+Windows Users: To follow along in this tutorial, go to your Documents folder, right-click and then select "Git Bash Here."
 
 There are also a few things you should set up before you start using git:
 ```
@@ -38,7 +38,6 @@ $ git config --global user.email "youremailOrsomefakeemail@somewhere.com"
 # by default, git installs Vim as your text editor
 # if you're just getting started, you probably don't want that
 # I say this as I edit this document in Vim...
-# I haven't tested the line below, if it breaks, let me know.
 $ git config --global core.editor notepad.exe
 ```
 
@@ -265,6 +264,6 @@ The really long letter/number combinations are SHA1 hashes - they are used as id
 
 Notice that the commits are displayed in reverse order.
 
-This command line output isn't very fun to wade through. If you're using git-bash on windows, you may prefer to use `git-gui` which will give you a useful though visually unappealing view of the history.
+This command line output isn't very fun to wade through. If you're using git-bash on windows, you may prefer to use `gitk` which will give you a useful though visually unappealing view of the history.
 
 Ok, I think that's enough for you and for me. See ya next time!
